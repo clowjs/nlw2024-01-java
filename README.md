@@ -6,6 +6,16 @@ mvn spring-boot:run
 
 ```application.properties
 server.port=8085
+spring.datasource.url=jdbc:postgresql://localhost:5434/pg_nlw
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+```
+
+```bash
+docker-compose up -d
+docker ps
 ```
 
 ## API REST
