@@ -34,6 +34,10 @@ Metodos Comuns
 - Query Params - http://localhost:8085/users?nome=Sergio&idade=35 OPICIONAIS
 - Parametros de rotas - http://localhost:8085/users/{nome}/{idade} OBRIGATORIO
 
+## ORM - Object Relational Mapping
+
+## REPOSITORY - Interagir com o banco de dados
+
 ## Modelos
 
 ### Questions
