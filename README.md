@@ -37,38 +37,3 @@ Metodos Comuns
 ## ORM - Object Relational Mapping
 
 ## REPOSITORY - Interagir com o banco de dados
-
-## Modelos
-
-### Questions
-
-- id
-- description
-- technology
-
-### Alternatives
-
-- id
-- description
-- question_id
-- is_correct
-
-### Students
-
-- email
-- List of Certification
-
-### Certifications
-
-- student_id
-- id
-- technology
-- List of AnswersCertification
-
-### AnswersCertification
-
-- certification_id
-- student_id
-- question_id
-- answer_id
-- is_correct
